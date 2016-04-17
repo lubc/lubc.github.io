@@ -18,7 +18,7 @@ a, a:hover, a:active, a:visited, a:focus {
   color: #EA6E39;
   text-decoration: none;
 }
-a:hover {
+.about a:hover {
   text-decoration: underline;
 }
 
@@ -80,6 +80,14 @@ header .right h2{
 a.hightlight {
   padding: 2px 4px;
   background-color: rgba(218,73,57,0.1);
+}
+
+.contact .social a {
+  font-size: 20px;
+  margin-right: 5px;
+}
+.contact .social a:hover {
+  color: rgba(234, 110, 57, 0.85)
 }
 
 .over {
