@@ -14,7 +14,7 @@ p {
   font-size: 16px;
 }
 
-a, a:hover, a:active, a:visited, a:focus {
+.about a, .about a:hover, .about a:active, .about a:visited, .about a:focus {
   color: #EA6E39;
   text-decoration: none;
 }
@@ -82,20 +82,12 @@ a.hightlight {
   background-color: rgba(218,73,57,0.1);
 }
 
-.contact .social a {
-  font-size: 20px;
-  margin-right: 5px;
-}
-.contact .social a:hover {
-  color: rgba(234, 110, 57, 0.85)
-}
-
 .over {
-  transform:         rotate( -180deg );            
-  -moz-transform:    rotate( -180deg );            
-  -ms-transform:     rotate( -180deg );            
-  -o-transform:      rotate( -180deg );            
-  -webkit-transform: rotate( -180deg );           
+  transform:         rotate( -180deg );
+  -moz-transform:    rotate( -180deg );
+  -ms-transform:     rotate( -180deg );
+  -o-transform:      rotate( -180deg );
+  -webkit-transform: rotate( -180deg );
   transition:         transform 550ms ease;
   -moz-transition:    -moz-transform 550ms ease;
   -ms-transition:     -ms-transform 550ms ease;
@@ -104,16 +96,28 @@ a.hightlight {
 }
 
 .out {
-  transform:         rotate( -360deg );            
-  -moz-transform:    rotate( -360deg );            
-  -ms-transform:     rotate( -360deg );            
-  -o-transform:      rotate( -360deg );            
-  -webkit-transform: rotate( -360deg );            
+  transform:         rotate( -360deg );
+  -moz-transform:    rotate( -360deg );
+  -ms-transform:     rotate( -360deg );
+  -o-transform:      rotate( -360deg );
+  -webkit-transform: rotate( -360deg );
   transition:         transform 550ms ease;
   -moz-transition:    -moz-transform 550ms ease;
   -ms-transition:     -ms-transform 550ms ease;
   -o-transition:      -o-transform 550ms ease;
   -webkit-transition: -webkit-transform 550ms ease;
+}
+
+.contact a {
+  font-size: 22px;
+  margin-right: 5px;
+}
+
+.contact a, .contact a:active, .contact a:visited, .contact a:focus {
+  color: #4E4E4E;
+}
+.contact a:hover {
+  color: #EA6E39;
 }
 
 @media (max-width: 768px) {
